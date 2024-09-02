@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
-    
-            
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://img.freepik.com/free-photo/top-view-career-written-note-with-pen-notepad-white-background-job-school-copybook-salary-college-office-color_179666-19733.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1725235200&semt=ais_hybrid');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .marquee-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        marquee {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <div class="welcome-message">
-        <h1>Welcome to Our Website!</h1>
-        <p>We are glad to have you here.</p>
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">Welcome to WebTechnology.</marquee>
     </div>
 </body>
 </html>
